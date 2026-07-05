@@ -8,6 +8,8 @@ https://2p2quake.net/
 URLは
 https://api.p2pquake.net/v2/history?codes=556&limit=1&offset=0/
 です。
+## 利用規約
+今後作成します。しばらくお待ち下さい。
 ## ライセンス
 これは、creative commons zero v1.0 universalに従って公開されています。
 https://creativecommons.org/publicdomain/zero/1.0/deed.ja/
