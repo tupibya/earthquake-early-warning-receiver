@@ -53,13 +53,13 @@
         }
 
         /* 左側カードのホバー時の輝き */
-        .card-left:hover {
+        .card-a:hover {
             border-color: #38bdf8;
             box-shadow: 0 0 30px rgba(56, 189, 248, 0.2), 0 20px 40px rgba(0, 0, 0, 0.4);
         }
 
         /* 右側カードのホバー時の輝き */
-        .card-right:hover {
+        .card-b:hover {
             border-color: #818cf8;
             box-shadow: 0 0 30px rgba(129, 140, 248, 0.2), 0 20px 40px rgba(0, 0, 0, 0.4);
         }
@@ -126,16 +126,22 @@
 
     <div class="container">
         <!-- 1つ目のURL設定（hrefの中に飛びたいURLを入れてください） -->
-        <a href="https://tupibya.github.io/earthquake-infomation-receiver/earthquake-early-warning-receiver.html" class="nav-card card-left" target="_blank">
+        <a href="https://tupibya.github.io/earthquake-infomation-receiver/earthquake-early-warning-receiver.html" class="nav-card card-a" target="_blank">
             <div class="title">緊急地震速報受信機</div>
             <div class="subtitle">緊急地震速報を即時受信し表示します。EEW発表直後から10分で表示が戻ります。</div>
             <div class="arrow">→</div>
         </a>
 
         <!-- 2つ目のURL設定（hrefの中に飛びたいURLを入れてください） -->
-        <a href="https://tupibya.github.io/earthquake-infomation-receiver/seismic-wave-countdown.html" class="nav-card card-right" target="_blank">
+        <a href="https://tupibya.github.io/earthquake-infomation-receiver/kosho.html" class="nav-card card-b" target="_blank">
             <div class="title">地震波カウントダウン(故障中)</div>
             <div class="subtitle">緊急地震速報(予報含め)を1秒(未満)で受信します。発表されたら現在地の震度、S波到達カウントダウンが見れます。位置情報のアクセスを許可して下さい。</div>
+            <div class="arrow">→</div>
+        </a>
+
+        <a href="https://loilonote.app/_/" class="nav-card card c" target="_blank">
+            <div class="title">ロイロノート</div>
+            <div class="subtitle">ろいろ
             <div class="arrow">→</div>
         </a>
     </div>
