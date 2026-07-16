@@ -40,6 +40,8 @@
 ### v3.0 ~ v3.5
 沢山のhtmlファイルを大幅に変更  
 「index.html」のスクロールの試み
+### v4.0
+色々
 ## API詳細
 https://p2pquake.net/ を使用しました。  
 URLはhttps://api.p2pquake.net/v2/history?codes=556&limit=1&offset=0/ です。
